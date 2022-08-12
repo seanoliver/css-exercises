@@ -20,6 +20,18 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
+  padding: 20px;
+}
+
+.icon-column {
+  
+}
+
+.main-column {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon {
@@ -35,7 +47,28 @@ body {
   justify-content: center;
 }
 
+.header-row {
+  display: flex;
+}
+
+.header {
+  flex: auto;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.button-wrap {
+  flex: none;
+  align-items: flex-end;
+}
+
 .close-button {
+  flex: 1 1 0;
   background: #eee;
   border-radius: 50%;
   color: #888;
